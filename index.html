@@ -3,45 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing page excercises</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Odin Project ex flexbox</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
-        <h1>Header Logo</h1>
-            <a href="#" class="header_link">header Link 1></a>
-            <a href="#" class="header_link">header Link 2></a>
-            <a href="#" class="header_link">header Link 3></a>
-    </div>
-
     <div id="container">
-        <div id="Upper_Container">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes under the main title.
-                It's a smaller font and the color is lower contrast.
-            </p>
-            <div class="image">Image placeholder</div>
-            <button class="signup">Signup</button>
+        <div class="header">
+            <div class="header_logo">Header Logo</div>
+            <div>
+                <ul class="header_link">
+                    <li><a href="#">Header Link 1</a></li>
+                    <li><a href="#">Header Link 2</a></li>
+                    <li><a href="#">Header Link 3</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="upper_container">
+            <div class="upper_container_left">
+                <p class="bolder_text">This Website is awesome, but so is this bird!</p>
+                <p class="smaller_text">This website is all about The australian magpie, the most peacful Bird ever. Dont be afraid, they dont bite.</p>
+                <button class="sign_up_btn blue_box">Sign up</button>
+            </div>
+            <div class="upper_container_right">
+                <div class="magpie_img">
+                    <img src="IMAGES/magpie.jpg" width="500px" height="320px">
+                </div>
+            </div>
         </div>
 
-        <div id="Information">
-            <h1>Some random Information</h1>
-            <div class="img_blueborder"></div>
-            <div class="img_blueborder"></div>
-            <div class="img_blueborder"></div>
-            <div class="img_blueborder"></div>
+        <div class="random_information">
+            <p class="some_random_information">Some random information</p>
+            <div class="square_container">
+                <div class="blue_border_square">
+                    <div class="informative_text">This is some subtext under an illustration or image</div> 
+                </div>
+                <div class="blue_border_square">
+                    <div class="informative_text">This is some subtext under an illustration or image</div> 
+                </div>
+                <div class="blue_border_square">
+                    <div class="informative_text">This is some subtext under an illustration or image</div> 
+                </div>
+                <div class="blue_border_square">
+                    <div class="informative_text">This is some subtext under an illustration or image</div> 
+                </div>
+            </div>
         </div>
 
-        <div id="Quote">
-            <p>This is an inspiration quote</p>
+        <div class="quote_container">
+            <p class="main_quote">“It's a very small object to be capable of doing many wonderful things, don't you think?"
+                "It does much more that that," Valkyrie said, opening up a game and showing it to him.
+                His eyes widened. "What wonder is this?"
+                "It's called Angry Birds. Now do you believe me?”
+                </p>
+            <p class="signature"> Derek Landy, Kingdom of the Wicked</p>
         </div>
 
-        <div id="Call_to_action">
-            <h1>Call to action. It's time!</h1>
-            <button class="signup">Signup</button>
+        <div class="call_to_action_container ">
+            <div class="call_to_action_SUB_container blue_box">
+                <div class="call_to_action_left">
+                    <h1>Call to action, it's time!</h1>
+                    <p>Sign up to our product by clicking that button right over there!</p>
+                </div>
+                <div class="call_to_action_right">
+                    <button class="sign_up_btn blue_box">Sign up</button>
+                </div>
+            </div>
         </div>
+
+        <div class="footer">
+            <p>Copyright The Odin Project 2021</p>
+        </div>
+
     </div>
-
-    <footer>Copyright &copy; The Odin Project 2021</footer>
+    
 </body>
 </html>
